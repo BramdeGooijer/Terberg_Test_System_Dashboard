@@ -1,0 +1,55 @@
+.chart-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.chart-wrapper {
+    display: flex;
+    align-self: center;
+    height: 90%;
+    width: 40%;
+}
+
+.chart-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 40px 0;
+}
+
+.legenda-item {
+    display: flex;
+    gap: 8px;
+    width: fit-content;
+    background-color: var(--tcm-grey);
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.legend-text {
+    font-family: "roboto-medium";
+    font-size: 12px;
+    margin: 0;
+}
+
+.completed-square {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: var(--tcm-light-blue);
+}
+
+.failed-square {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: var(--tcm-red);
+}
+
+.chart-data-not-found {
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+    font-family: "roboto-bold";    
+}

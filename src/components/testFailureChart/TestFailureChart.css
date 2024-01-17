@@ -1,0 +1,13 @@
+.failure-chart-container {
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    /* This width is for letting the bar chart scale horizontally */
+    width: 95%;
+}
+
+.chart-data-not-found {
+    align-self: center;
+    margin: 0;
+    font-family: "roboto-bold";    
+}

@@ -1,0 +1,72 @@
+/* General styling */
+.filter-button-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 140px;
+    height: fit-content;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+
+}
+
+.filter-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 15px;
+    background-color: var(--tcm-white);
+    border-radius: 15px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button-text {
+    font-family: 'source-sans-pro-semibold';
+    font-size: 15px;
+    margin: 0;
+}
+
+.expand-icon {
+    transition: .3s;
+}
+
+/* Type filter specific styling */
+.filter-options {
+    display: none;
+    flex-direction: column;
+    padding: 6px 0;
+}
+
+.options-text {
+    font-family: 'source-sans-pro-semibold';
+    padding: 2px 15px;
+    margin: 0;
+}
+
+.options-text:hover {
+    background: var(--tcm-grey);
+}
+
+.filter-button-container:hover > .filter-button > .expand-icon {
+    transform: rotate(-180deg);
+}
+.filter-button-container:hover > .filter-options {
+    display: flex;
+}
+.filter-button-container:hover {
+    background-color: var(--tcm-white);
+}
+
+/* Date picker specific styling */
+.date-picker {
+    font-family: 'source-sans-pro-semibold';
+    font-size: 15px;
+    height: 100%;
+    border: none;
+    margin-left: 10px;
+}
+
+.date-picker:focus-visible {
+    outline: none;
+}

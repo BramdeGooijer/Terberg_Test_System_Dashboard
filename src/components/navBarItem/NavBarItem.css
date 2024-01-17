@@ -1,0 +1,24 @@
+.nav-bar-item-container {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.nav-bar-item-text {
+    font-family: "source-sans-pro-semibold";
+    color: var(--tcm-text-blue);
+    margin: 0;
+}
+
+.nav-bar-item-text[data-selected="false"] {
+    color: var(--tcm-text-grey);
+}
+
+@media only screen and (max-width: 750px) {
+    .nav-bar-item-text {
+        display: none;
+    }
+}

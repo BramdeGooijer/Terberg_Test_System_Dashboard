@@ -1,0 +1,73 @@
+.test-details-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test-details-wrapper {
+    position: relative;
+    border-radius: 10px;
+    padding: 24px;
+    width: 50%;
+    height: 50%;
+    background-color: var(--tcm-white);
+}
+
+.close-icon {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+}
+
+.info-set {
+    display: flex;
+    gap: 5px;
+}
+
+.info-tag {
+    font-family: "source-sans-pro-semibold";
+    font-size: 18px;
+}
+
+.info-result {
+    font-family: "source-sans-pro-regular";
+    font-size: 18px;
+}
+
+.details-title {
+    font-family: "roboto-bold";
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.subtests-title {
+    font-family: "roboto-medium";
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+.subtest-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media only screen and (min-width: 800px) {
+    .test-details-wrapper {
+        min-width: 625px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .test-details-wrapper {
+        width: 70%;
+    }
+}

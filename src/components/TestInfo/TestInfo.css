@@ -1,0 +1,89 @@
+.test-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #F8F8F8 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px 15px;
+}
+
+p {
+    font-family: 'source-sans-pro-semibold';
+    margin: 0;
+}
+
+.test-id {
+    width: 15%;
+}
+
+.test-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.subtest-success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.test-success {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    width: 15%;
+    max-width: 100px;
+}
+
+.success-text {
+    color: var(--tcm-light-blue)
+}
+.failed-text {
+    color: var(--tcm-red)
+}
+
+@media only screen and (max-width: 800px) {
+    .test-success {
+        justify-content: center;
+    }
+
+    .state-text {
+        display: none;
+    }
+}
+
+.details-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.details-button:hover > .details-text {
+    text-decoration: underline;
+}
+
+.sub-test-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #F8F8F8 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px 15px;
+}
+
+.main-items-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description-text {
+    font-family: "source-sans-pro-regular";
+    font-size: 16px;
+}

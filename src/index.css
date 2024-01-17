@@ -1,0 +1,117 @@
+:root {
+    --tcm-background-blue: #F1F2F8;
+    --tcm-background-grey: #FDFDFD;
+    
+    --tcm-text-blue: #0E4096;
+    --tcm-text-grey: #8C8C8C;
+    
+    --tcm-white: white;
+    --tcm-light-blue: #357AF6;
+    --tcm-red: #EA3354;
+    --tcm-grey: #F2F2F7;
+}
+
+body {
+    margin: 0;
+    background-color: var(--tcm-background-blue);
+}
+
+/* Source sans pro fonts */
+@font-face {
+    font-family: "source-sans-pro-black";
+    src: url( "/public/fonts/source-sans-pro/SourceSansPro-Black.otf");
+}
+@font-face {
+    font-family: "source-sans-pro-black-it";
+    src: url("/public/fonts/source-sans-pro/SourceSansPro-BlackIt.otf");
+} 
+@font-face {
+    font-family: "source-sans-pro-bold";
+    src: url("/public/fonts/source-sans-pro/SourceSansPro-Bold.otf");
+} 
+@font-face {
+    font-family: "source-sans-pro-bold-it";
+    src: url("/public/fonts/source-sans-pro/SourceSansPro-BoldIt.otf");
+} 
+@font-face {
+    font-family: "source-sans-pro-extra-light";
+    src: url("/public/fonts/source-sans-pro/SourceSansPro-ExtraLight.otf");
+} 
+@font-face {
+    font-family: "source-sans-pro-extra-light-it";
+    src: url("/public/fonts/source-sans-pro/SourceSansPro-ExtraLightIt.otf");
+} 
+@font-face {
+    font-family: "source-sans-pro-it";
+    src: url("/public/fonts/source-sans-pro/SourceSansPro-It.otf");
+} 
+@font-face {
+    font-family: "source-sans-pro-light";
+    src: url("/public/fonts/source-sans-pro/SourceSansPro-Light.otf");
+} 
+@font-face {
+    font-family: "source-sans-pro-light-it";
+    src: url("/public/fonts/source-sans-pro/SourceSansPro-LightIt.otf");
+} 
+@font-face {
+    font-family: "source-sans-pro-regular";
+    src: url("/public/fonts/source-sans-pro/SourceSansPro-Regular.otf");
+}
+@font-face {
+    font-family: "source-sans-pro-semibold";
+    src: url("/public/fonts/source-sans-pro/SourceSansPro-Semibold.otf");
+} 
+@font-face {
+    font-family: "source-sans-pro-semibold-it";
+    src: url("/public/fonts/source-sans-pro/SourceSansPro-SemiboldIt.otf");
+}
+
+/* Roboto fonts */
+@font-face {
+    font-family: "roboto-black";
+    src: url("/public/fonts/roboto/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: "roboto-black-it";
+    src: url("/public/fonts/roboto/Roboto-BlackItalic.ttf");
+}
+@font-face {
+    font-family: "roboto-bold";
+    src: url("/public/fonts/roboto/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "roboto-bold-it";
+    src: url("/public/fonts/roboto/Roboto-BlackItalic.ttf");
+}
+@font-face {
+    font-family: "roboto-italic";
+    src: url("/public/fonts/roboto/Roboto-Italic.ttf");
+}
+@font-face {
+    font-family: "roboto-light";
+    src: url("/public/fonts/roboto/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "roboto-light-it";
+    src: url("/public/fonts/roboto/Roboto-LightItalic.ttf");
+}
+@font-face {
+    font-family: "roboto-medium";
+    src: url("/public/fonts/roboto/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "roboto-medium-it";
+    src: url("/public/fonts/roboto/Roboto-MediumItalic.ttf");
+}
+@font-face {
+    font-family: "roboto-regular";
+    src: url("/public/fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "roboto-thin";
+    src: url("/public/fonts/roboto/Roboto-Thin.ttf");
+}
+@font-face {
+    font-family: "roboto-thin-it";
+    src: url("/public/fonts/roboto/Roboto-ThinItalic.ttf");
+}
